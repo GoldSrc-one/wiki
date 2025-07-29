@@ -83,4 +83,4 @@ Since you need to download large amount of assets from the other games when conn
 
 Launching the server is also not that straightforward, so I made a launcher for you and put a shortcut on your desktop.
 
-[Next step: launching](Launching.md)
+[Next step: Running](Running.md)
