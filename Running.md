@@ -39,6 +39,16 @@ The launcher will start the crossfastdl server that allow for faster asset downl
 
 You can tweak the resulting command line or just copy paste it to your own .bat launcher.
 
+# First run
+
+You will need to have some patience when running the server first time.
+
+First time running on deathmatch maps and on CS maps -- the server will convert the player models so they are displayed properly in the other games. This can take a few minutes.
+
+Also be aware that CS bots will start their learning routine if there is not a `.nav` file ready for that map. That drops the server fps down to about 4 and takes from a few minutes to an hour per map.
+
+HL bots also needs to learn the map, so be patient or let them play with the CS bots for a while so they learn from them.
+
 #
 
 [Next topic: Architecture](Architecture.md)
