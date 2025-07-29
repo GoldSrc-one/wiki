@@ -10,7 +10,7 @@
 
 [Architecture](Architecture.md)
 
-[Configuring](Configuring.md)
+[Configuration](Configuration.md)
 
 [Running CS/CZ (or HL/AG) crossplay only](Running_CSCZ.md)
 
