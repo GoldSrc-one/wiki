@@ -49,6 +49,12 @@ Also be aware that CS bots will start their learning routine if there is not a `
 
 HL bots also needs to learn the map, so be patient or let them play with the CS bots for a while so they learn from them.
 
+# Running on Linux
+
+If you wish to run the server on linux, you need to use wine. Either copy the whole from windows or use steamcmd with *the parameter I don't know right now the name for* to download windows version of HLDS on linux.
+
+You will have to install all these things mentioned above manually. I have also modified the ReHLDS `hlds.exe` that it runs nicely as a console application, so make sure you grab it [from here](https://github.com/GoldSrc-one/rehlds/releases).
+
 #
 
 [Next topic: Architecture](Architecture.md)
