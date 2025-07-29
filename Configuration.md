@@ -23,3 +23,6 @@ Don't touch the other settings.
 ## game_{gamedir}.cfg
 
 If you wish to have some specific configuraiton on CS/HL/... maps, just go to game_{gamedir}.cfg
+
+For now, there is a specific config for CS maps in `game_cstrike.cfg` and for the other maps there is `game_deathmatch.cfg`
+
