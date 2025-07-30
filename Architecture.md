@@ -11,6 +11,7 @@ CrossPlay is technically a GoldSrc game.
 - it has its own configs, `motd.txt` and so on
 
 But it is a "meta" game. It uses the dlls from the other games to make the magic happen.
+The games are specified with the `-xgameX` parameter.
 
 In addition the the dlls, it uses `gamedata`. It is a directory with contains information about the game dlls, very similar to the one you would find in `amxmodx\data`.
 
@@ -20,4 +21,5 @@ After launching the CrossPlay server a `models` folder will be created. It will 
 - 2WB version (HL, OP4, DMC, TFC)
 - CS version (CS, CZ)
 - DOD version (DOD)
+
 The `models` folder also contains models which have confliting names. For example `p_knife.mdl` from CS vs `p_knife.mdl` from DMC.
