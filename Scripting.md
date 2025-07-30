@@ -1,4 +1,4 @@
-index link
+[Go back to index](README.md)
 
 #
 
@@ -14,16 +14,27 @@ Game context is a concept in CrossPlay. It lets you act as you are now in CS/HL/
 
 For example, if you with to spawn an entity from HL, you do
 
-```
+```pawn
 #include "crossplay"
-new gameId = GetGameId("valve");
-GameContext(valveId, "MySpawnFunction");
-...
-public MySpawnFunction() {
+
+new g_valveId = -1;
+
+public plugin_init() {
+  ...
+  g_valveId = GetGameIndex("valve");
+  register_clcmd("zombie", "ZombieMaker");
+}
+
+public ZombieMaker(playerId) {
+  GameContext(g_valveId, "ValveZombieMaker");
+}
+
+public ValveZombieMaker() {
   create_entity("monster_zombie");
+  ...
 }
 ```
 
 ## Examples
 
-See the *scripting*
+See the [scripting repository](https://github.com/GoldSrc-one/scripting)
