@@ -4,7 +4,7 @@
 
 # Downloading
 
-To download the CrossPlay installer, go to [the Patreon page](https://patreon.goldsrc.one/) and follow the download links.
+To download the CrossPlay installer, go to [the Patreon page](https://patreon.goldsrc.one/) and follow [the download links](https://www.patreon.com/posts/v1-135288261).
 
 Since the installer is not signed, you will probably need to ignore about 8000 security warnings in order to download the exe and run it.
 
