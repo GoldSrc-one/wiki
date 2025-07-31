@@ -51,7 +51,7 @@ If you want OP4, check it.
 
 Same as above
 
-## Deathmatch Classis
+## Deathmatch Classic
 
 If you want DMC, check it.
 
