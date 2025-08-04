@@ -46,7 +46,7 @@ GetEntityOwner(1) == GetGameIndex("cstrike")
 Of course this code doesn't make much sense, you would put it inside an if statement for example. You would also store the game index beforehand for better performance.
 
 Another example, if you created that entity using that code above, this would be true:
-```
+```pawn
 GetEntityOwner(zombie) == g_valveId
 ```
 
